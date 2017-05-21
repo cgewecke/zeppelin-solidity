@@ -7,7 +7,7 @@
     "test": "scripts/test.sh",
     "console": "truffle console",
     "install": "scripts/install.sh",
-    "coverage": "./node_modules/.bin/solidity-coverage"
+    "coverage": "scripts/coverage.sh"
   },
   "repository": {
     "type": "git",
