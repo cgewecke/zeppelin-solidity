@@ -9,6 +9,7 @@ if (!process.env.SOLIDITY_COVERAGE){
   provider = new HDWalletProvider(mnemonic, 'https://ropsten.infura.io/')
 }
 
+
 module.exports = {
   networks: {
     development: {
