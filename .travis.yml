@@ -7,6 +7,5 @@ node_js:
 cache:
   yarn: true
 script:
-  - yarn test
-after_script:
-  - yarn coverage
+  - npm run coverage && codecov
+  
